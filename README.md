@@ -1,8 +1,8 @@
-# Business Intelligence & Profit Recovery System
+# Bank Customer Retention & Risk Intelligence Platform
 
 ## Project Objective
 
-This project analyzes retail business performance to identify revenue drivers, profit leakage, operational inefficiencies, and customer/product trends. The goal is to build a business intelligence system that supports management decision-making, profitability improvement, and executive reporting.
+This project analyzes banking customer behavior to identify churn risk, customer retention opportunities, complaint patterns, loan-risk indicators, and high-value customer segments. The goal is to build an end-to-end banking analytics system using SQL, Python, and Power BI to support customer retention and risk-based decision-making.
 
 ## Business Value
 
