@@ -4,15 +4,15 @@ FROM cleaned_dashboard_data;
 
 -- 2. Churned vs non-churned customers
 SELECT 
-    "Churn Flag",
+    `Churn Flag`,
     COUNT(*) AS customer_count
 FROM cleaned_dashboard_data
-GROUP BY "Churn Flag";
+GROUP BY `Churn Flag`;
 
 -- 3. Churn rate
 SELECT 
     ROUND(
-        100.0 * SUM(CASE WHEN "Churn Flag" = '1' THEN 1 ELSE 0 END) / COUNT(*),
+        100.0 * SUM(CASE WHEN `Churn Flag` = 1 THEN 1 ELSE 0 END) / COUNT(*),
         2
     ) AS churn_rate_percentage
 FROM cleaned_dashboard_data;
@@ -28,7 +28,7 @@ HAVING COUNT(*) > 1;
 -- 5. Missing value check
 SELECT
     SUM(CASE WHEN Income IS NULL THEN 1 ELSE 0 END) AS missing_income,
-    SUM(CASE WHEN "Credit Score" IS NULL THEN 1 ELSE 0 END) AS missing_credit_score,
+    SUM(CASE WHEN `Credit Score` IS NULL THEN 1 ELSE 0 END) AS missing_credit_score,
     SUM(CASE WHEN Balance IS NULL THEN 1 ELSE 0 END) AS missing_balance,
-    SUM(CASE WHEN "Customer Tenure" IS NULL THEN 1 ELSE 0 END) AS missing_customer_tenure
+    SUM(CASE WHEN `Customer Tenure` IS NULL THEN 1 ELSE 0 END) AS missing_customer_tenure
 FROM cleaned_dashboard_data;
