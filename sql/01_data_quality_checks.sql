@@ -12,7 +12,7 @@ GROUP BY "Churn Flag";
 -- 3. Churn rate
 SELECT 
     ROUND(
-        100.0 * SUM(CASE WHEN "Churn Flag" = 'Yes' THEN 1 ELSE 0 END) / COUNT(*),
+        100.0 * SUM(CASE WHEN "Churn Flag" = '1' THEN 1 ELSE 0 END) / COUNT(*),
         2
     ) AS churn_rate_percentage
 FROM cleaned_dashboard_data;
