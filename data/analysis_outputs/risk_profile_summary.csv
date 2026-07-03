@@ -1,0 +1,9 @@
+Complaint Group,Credit Group,Product Group,total_customers,churned_customers,churn_rate_percentage
+High Complaints,Poor Credit,Low Product Engagement,8502,2941,34.59
+High Complaints,Non-Poor Credit,Low Product Engagement,8232,1726,20.97
+High Complaints,Poor Credit,High Product Engagement,12785,2678,20.95
+Low/Medium Complaints,Poor Credit,Low Product Engagement,15102,2990,19.8
+High Complaints,Non-Poor Credit,High Product Engagement,12331,1014,8.22
+Low/Medium Complaints,Poor Credit,High Product Engagement,22548,1566,6.95
+Low/Medium Complaints,Non-Poor Credit,Low Product Engagement,14513,972,6.7
+Low/Medium Complaints,Non-Poor Credit,High Product Engagement,21627,207,0.96

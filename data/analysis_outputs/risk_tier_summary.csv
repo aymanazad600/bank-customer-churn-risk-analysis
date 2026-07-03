@@ -1,0 +1,5 @@
+Risk Score,Risk Level,total_customers,churned_customers,churn_rate_percentage
+3,High Risk,8502,2941,34.59
+2,Medium Risk,36119,7394,20.47
+1,Low Risk,49392,3552,7.19
+0,Very Low Risk,21627,207,0.96

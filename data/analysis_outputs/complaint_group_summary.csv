@@ -1,0 +1,4 @@
+Complaint Risk Group,total_customers,churned_customers,churn_rate_percentage
+High Complaints,41850,8359,19.97
+Medium Complaints,42134,4406,10.46
+Low Complaints,31656,1329,4.2

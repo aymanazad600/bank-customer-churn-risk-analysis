@@ -1,0 +1,6 @@
+NumOfProducts,total_customers,churned_customers,churn_rate_percentage,avg_complaints,avg_credit_score,avg_balance
+1,22898,4778,20.87,5.01,574.52,125151.25
+2,23451,3851,16.42,4.96,574.64,124700.77
+3,23198,2644,11.4,4.99,574.33,124562.81
+4,23023,1807,7.85,5.02,574.7,123875.96
+5,23070,1014,4.4,4.97,573.3,124906.93

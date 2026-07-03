@@ -1,0 +1,6 @@
+Credit Score Group,total_customers,churned_customers,churn_rate_percentage,avg_balance,avg_outstanding_loans
+Poor Credit,58937,10175,17.26,124429.01,25507.6
+Fair Credit,18863,1811,9.6,125245.24,25570.49
+Good Credit,14659,1052,7.18,124276.29,25604.34
+Very Good Credit,12679,653,5.15,124587.41,25212.3
+Excellent Credit,10502,403,3.84,125299.43,25562.53
