@@ -98,6 +98,12 @@ screenshots/
 sql/
 ```
 
+## Project Notes and Limitations
+
+* This dataset was selected because it contains diverse banking-related features, including customer demographics, income, credit score, outstanding loans, product usage, complaints, churn reason, and churn status. This made it suitable for SQL analysis, Python validation, and Power BI dashboard development.
+* The raw dataset was large, so the file was stored in compressed format on GitHub. Cleaned datasets and summary output files were created separately to make the project easier to analyze and use in Power BI.
+* This version of the project focuses on churn patterns, risk groups, and business recommendations. Outlier treatment was not deeply optimized in the first version. Future improvements could include outlier analysis for income, balance, credit score, and outstanding loans before advanced modeling.
+
 ## Project Status
 
 Completed initial end-to-end version.
