@@ -1,39 +1,103 @@
 # Bank Customer Retention & Risk Intelligence Platform
 
-## Project Objective
+## Project Overview
 
-This project analyzes banking customer behavior to identify churn risk, customer retention opportunities, complaint patterns, loan-risk indicators, and high-value customer segments. The goal is to build an end-to-end banking analytics system using SQL, Python, and Power BI to support customer retention and risk-based decision-making.
+This project analyzes banking customer churn using SQL, Python, and Power BI. The goal is to identify customer churn drivers, build a simple churn risk scoring system, and provide business recommendations for customer retention.
 
-## Business Value
+The project simulates a real banking analytics workflow: data cleaning, data quality checks, SQL analysis, Python validation, dashboard development, and executive reporting.
 
-This project is designed to simulate real-world analyst work used in operations, banking, business analysis, reporting, and freelance dashboard projects.
+## Business Problem
+
+Customer churn is a major issue for banks because losing existing customers can reduce long-term revenue, product usage, and customer lifetime value. This project investigates which customer characteristics are associated with churn and how the bank can identify high-risk customers before they leave.
 
 ## Tools Used
 
-- SQL
-- Python
-- Excel
-- Power BI
-- Statistics
-- Forecasting
+* Excel
+* SQL / MySQL
+* Python / Pandas
+* Power BI
+* GitHub
 
-## Key Business Questions
+## Dataset
 
-1. Which products generate the most revenue and profit?
-2. Which products, customers, and regions create profit leakage?
-3. Which customer segments are most valuable?
-4. Are shipping delays affecting performance?
-5. Can future sales be forecasted?
-6. What business actions could improve profitability?
+The dataset contains banking customer records with demographic, financial, product, complaint, and churn information.
+
+Cleaned datasets were created for:
+
+* Dashboard analysis
+* Modeling/analytical use
+* Summary outputs
+
+Sensitive or unnecessary personal fields were excluded from cleaned analytical datasets.
+
+## Key Metrics
+
+| Metric                |   Value |
+| --------------------- | ------: |
+| Total Customers       | 115,640 |
+| Churned Customers     |  14,094 |
+| Non-Churned Customers | 101,546 |
+| Churn Rate            |  12.19% |
+
+## Key Findings
+
+### 1. Complaint Risk
+
+Customers with high complaint volume churn at 19.97%, compared with 4.20% for low-complaint customers. High-complaint customers are approximately 4.75 times more likely to churn.
+
+### 2. Credit Score Risk
+
+Poor-credit customers churn at 17.26%, compared with 3.84% for excellent-credit customers. This suggests credit score is a strong churn-risk indicator.
+
+### 3. Product Engagement
+
+Customers with only one product churn at 20.87%, while customers with five products churn at 4.40%. This suggests deeper product engagement is associated with stronger retention.
+
+### 4. Risk Scoring System
+
+A simple risk scoring system was created using:
+
+* Complaint volume
+* Credit score
+* Number of products
+
+| Risk Level    | Customers | Churned Customers | Churn Rate |
+| ------------- | --------: | ----------------: | ---------: |
+| High Risk     |     8,502 |             2,941 |     34.59% |
+| Medium Risk   |    36,119 |             7,394 |     20.47% |
+| Low Risk      |    49,392 |             3,552 |      7.19% |
+| Very Low Risk |    21,627 |               207 |      0.96% |
+
+High-risk customers churn at 34.59%, while very-low-risk customers churn at only 0.96%.
+
+## Dashboard Pages
+
+1. Executive Summary
+2. Risk Driver Deep Dive
+3. Risk Tier Action Plan
+4. Business Recommendations
+
+## Business Recommendations
+
+The bank should prioritize high-risk customers for retention actions. Recommended actions include:
+
+* Immediate complaint resolution for customers with 7+ complaints
+* Cross-sell and onboarding campaigns for single-product customers
+* Use poor credit score as a churn-risk warning signal
+* Relationship manager outreach for high-risk customers
+* Monitor churn risk by complaint level, credit score, and product engagement
 
 ## Repository Structure
 
-- data
-- sql
-- dashboard
-- screenshots
-- report
+```text
+data/
+dashboard/
+python/
+report/
+screenshots/
+sql/
+```
 
-## Status
+## Project Status
 
-Project in progress.
+Completed initial end-to-end version.
