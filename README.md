@@ -106,4 +106,4 @@ sql/
 
 ## Project Status
 
-Completed initial end-to-end version.
+Completed Version 1.0 — End-to-end banking churn analytics project using Excel, SQL, Python, Power BI, and GitHub.
