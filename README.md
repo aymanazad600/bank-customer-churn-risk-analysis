@@ -1,4 +1,4 @@
-# Bank Customer Retention & Risk Intelligence Platform
+# Bank Customer Churn & Risk analysis
 
 ## Project Overview
 
