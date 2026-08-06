@@ -107,3 +107,7 @@ sql/
 ## Project Status
 
 Completed Version 1.0 — End-to-end banking churn analytics project using Excel, SQL, Python, Power BI, and GitHub.
+
+## AI Assistance and Project Ownership
+
+AI tools was used as a learning and development assistant for brainstorming, explaining technical concepts, reviewing and drafting code, debugging, and refining documentation. I directed the project work, selected the methods, executed and tested the workflows, reviewed the outputs, validated the reported results, and take responsibility for the final repository.
